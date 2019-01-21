@@ -4,8 +4,8 @@
 \alias{fwer.support_test}
 \title{Copula-based multiple support test which controlls the FWER}
 \usage{
-fwer.support_test(sample, theta, alpha = 3, beta = 4, boot.reps = NULL,
-  sigLevel = 0.05)
+fwer.support_test(sample, theta, alpha = 3, beta = 4,
+  boot.reps = NULL, sigLevel = 0.05)
 }
 \arguments{
 \item{sample}{The observed sample (a matrix whose columsn are the observations)}
